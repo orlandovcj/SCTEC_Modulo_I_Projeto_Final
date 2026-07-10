@@ -1,0 +1,107 @@
+"EMPLOYEE_ID","FIRST_NAME","LAST_NAME","HIRE_DATE","DEPARTMENT_ID","DEPARTMENT_NAME","JOB_ID","JOB_TITLE","SALARY","MIN_SALARY","MAX_SALARY"
+205,"Shelley","Higgins","2012-06-07T00:00:00Z",110,"Accounting","AC_MGR","Accounting Manager",12008,8200,16000
+206,"William","Gietz","2012-06-07T00:00:00Z",110,"Accounting","AC_ACCOUNT","Public Accountant",8300,4200,9000
+200,"Jennifer","Whalen","2013-09-17T00:00:00Z",10,"Administration","AD_ASST","Administration Assistant",4400,3000,6000
+102,"Lex","Garcia","2011-01-13T00:00:00Z",90,"Executive","AD_VP","Administration Vice President",17000,15000,30000
+101,"Neena","Yang","2015-09-21T00:00:00Z",90,"Executive","AD_VP","Administration Vice President",17000,15000,30000
+100,"Steven","King","2013-06-17T00:00:00Z",90,"Executive","AD_PRES","President",24000,20080,40000
+109,"Daniel","Faviet","2012-08-16T00:00:00Z",100,"Finance","FI_ACCOUNT","Accountant",9000,4200,9000
+110,"John","Chen","2015-09-28T00:00:00Z",100,"Finance","FI_ACCOUNT","Accountant",8200,4200,9000
+112,"Jose Manuel","Urman","2016-03-07T00:00:00Z",100,"Finance","FI_ACCOUNT","Accountant",7800,4200,9000
+111,"Ismael","Sciarra","2015-09-30T00:00:00Z",100,"Finance","FI_ACCOUNT","Accountant",7700,4200,9000
+113,"Luis","Popp","2017-12-07T00:00:00Z",100,"Finance","FI_ACCOUNT","Accountant",6900,4200,9000
+108,"Nancy","Gruenberg","2012-08-17T00:00:00Z",100,"Finance","FI_MGR","Finance Manager",12008,8200,16000
+203,"Susan","Jacobs","2012-06-07T00:00:00Z",40,"Human Resources","HR_REP","Human Resources Representative",6500,4000,9000
+103,"Alexander","James","2016-01-03T00:00:00Z",60,"IT","IT_PROG","Programmer",9000,4000,10000
+104,"Bruce","Miller","2017-05-21T00:00:00Z",60,"IT","IT_PROG","Programmer",6000,4000,10000
+105,"David","Williams","2015-06-25T00:00:00Z",60,"IT","IT_PROG","Programmer",4800,4000,10000
+106,"Valli","Jackson","2016-02-05T00:00:00Z",60,"IT","IT_PROG","Programmer",4800,4000,10000
+107,"Diana","Nguyen","2017-02-07T00:00:00Z",60,"IT","IT_PROG","Programmer",4200,4000,10000
+201,"Michael","Martinez","2014-02-17T00:00:00Z",20,"Marketing","MK_MAN","Marketing Manager",13000,9000,15000
+202,"Pat","Davis","2015-08-17T00:00:00Z",20,"Marketing","MK_REP","Marketing Representative",6000,4000,9000
+204,"Hermann","Brown","2012-06-07T00:00:00Z",70,"Public Relations","PR_REP","Public Relations Representative",10000,4500,10500
+115,"Alexander","Khoo","2013-05-18T00:00:00Z",30,"Purchasing","PU_CLERK","Purchasing Clerk",3100,2500,5500
+116,"Shelli","Baida","2015-12-24T00:00:00Z",30,"Purchasing","PU_CLERK","Purchasing Clerk",2900,2500,5500
+117,"Sigal","Tobias","2015-07-24T00:00:00Z",30,"Purchasing","PU_CLERK","Purchasing Clerk",2800,2500,5500
+118,"Guy","Himuro","2016-11-15T00:00:00Z",30,"Purchasing","PU_CLERK","Purchasing Clerk",2600,2500,5500
+119,"Karen","Colmenares","2017-08-10T00:00:00Z",30,"Purchasing","PU_CLERK","Purchasing Clerk",2500,2500,5500
+114,"Den","Li","2012-12-07T00:00:00Z",30,"Purchasing","PU_MAN","Purchasing Manager",11000,8000,15000
+145,"John","Singh","2014-10-01T00:00:00Z",80,"Sales","SA_MAN","Sales Manager",14000,10000,20080
+146,"Karen","Partners","2015-01-05T00:00:00Z",80,"Sales","SA_MAN","Sales Manager",13500,10000,20080
+147,"Alberto","Errazuriz","2015-03-10T00:00:00Z",80,"Sales","SA_MAN","Sales Manager",12000,10000,20080
+148,"Gerald","Cambrault","2017-10-15T00:00:00Z",80,"Sales","SA_MAN","Sales Manager",11000,10000,20080
+149,"Eleni","Zlotkey","2018-01-29T00:00:00Z",80,"Sales","SA_MAN","Sales Manager",10500,10000,20080
+168,"Lisa","Ozer","2015-03-11T00:00:00Z",80,"Sales","SA_REP","Sales Representative",11500,6000,12008
+174,"Ellen","Abel","2014-05-11T00:00:00Z",80,"Sales","SA_REP","Sales Representative",11000,6000,12008
+162,"Clara","Vishney","2015-11-11T00:00:00Z",80,"Sales","SA_REP","Sales Representative",10500,6000,12008
+169,"Harrison","Bloom","2016-03-23T00:00:00Z",80,"Sales","SA_REP","Sales Representative",10000,6000,12008
+150,"Sean","Tucker","2015-01-30T00:00:00Z",80,"Sales","SA_REP","Sales Representative",10000,6000,12008
+156,"Janette","King","2014-01-30T00:00:00Z",80,"Sales","SA_REP","Sales Representative",10000,6000,12008
+170,"Tayler","Fox","2016-01-24T00:00:00Z",80,"Sales","SA_REP","Sales Representative",9600,6000,12008
+151,"David","Bernstein","2015-03-24T00:00:00Z",80,"Sales","SA_REP","Sales Representative",9500,6000,12008
+157,"Patrick","Sully","2014-03-04T00:00:00Z",80,"Sales","SA_REP","Sales Representative",9500,6000,12008
+163,"Danielle","Greene","2017-03-19T00:00:00Z",80,"Sales","SA_REP","Sales Representative",9500,6000,12008
+152,"Peter","Hall","2015-08-20T00:00:00Z",80,"Sales","SA_REP","Sales Representative",9000,6000,12008
+158,"Allan","McEwen","2014-08-01T00:00:00Z",80,"Sales","SA_REP","Sales Representative",9000,6000,12008
+175,"Alyssa","Hutton","2015-03-19T00:00:00Z",80,"Sales","SA_REP","Sales Representative",8800,6000,12008
+176,"Jonathon","Taylor","2016-03-24T00:00:00Z",80,"Sales","SA_REP","Sales Representative",8600,6000,12008
+177,"Jack","Livingston","2016-04-23T00:00:00Z",80,"Sales","SA_REP","Sales Representative",8400,6000,12008
+153,"Christopher","Olsen","2016-03-30T00:00:00Z",80,"Sales","SA_REP","Sales Representative",8000,6000,12008
+159,"Lindsey","Smith","2015-03-10T00:00:00Z",80,"Sales","SA_REP","Sales Representative",8000,6000,12008
+154,"Nanette","Cambrault","2016-12-09T00:00:00Z",80,"Sales","SA_REP","Sales Representative",7500,6000,12008
+160,"Louise","Doran","2015-12-15T00:00:00Z",80,"Sales","SA_REP","Sales Representative",7500,6000,12008
+171,"William","Smith","2017-02-23T00:00:00Z",80,"Sales","SA_REP","Sales Representative",7400,6000,12008
+172,"Elizabeth","Bates","2017-03-24T00:00:00Z",80,"Sales","SA_REP","Sales Representative",7300,6000,12008
+164,"Mattea","Marvins","2018-01-24T00:00:00Z",80,"Sales","SA_REP","Sales Representative",7200,6000,12008
+155,"Oliver","Tuvault","2017-11-23T00:00:00Z",80,"Sales","SA_REP","Sales Representative",7000,6000,12008
+161,"Sarath","Sewall","2016-11-03T00:00:00Z",80,"Sales","SA_REP","Sales Representative",7000,6000,12008
+165,"David","Lee","2018-02-23T00:00:00Z",80,"Sales","SA_REP","Sales Representative",6800,6000,12008
+166,"Sundar","Ande","2018-03-24T00:00:00Z",80,"Sales","SA_REP","Sales Representative",6400,6000,12008
+179,"Charles","Johnson","2018-01-04T00:00:00Z",80,"Sales","SA_REP","Sales Representative",6200,6000,12008
+167,"Amit","Banda","2018-04-21T00:00:00Z",80,"Sales","SA_REP","Sales Representative",6200,6000,12008
+173,"Sundita","Kumar","2018-04-21T00:00:00Z",80,"Sales","SA_REP","Sales Representative",6100,6000,12008
+184,"Nandita","Sarchand","2014-01-27T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",4200,2500,5500
+185,"Alexis","Bull","2015-02-20T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",4100,2500,5500
+192,"Sarah","Bell","2014-02-04T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",4000,2500,5500
+193,"Britney","Everett","2015-03-03T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3900,2500,5500
+188,"Kelly","Chung","2015-06-14T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3800,2500,5500
+189,"Jennifer","Dilly","2015-08-13T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3600,2500,5500
+186,"Julia","Dellinger","2016-06-24T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3400,2500,5500
+180,"Winston","Taylor","2016-01-24T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3200,2500,5500
+194,"Samuel","McLeod","2016-07-01T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3200,2500,5500
+181,"Jean","Fleaur","2016-02-23T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3100,2500,5500
+196,"Alana","Walsh","2016-04-24T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3100,2500,5500
+197,"Kevin","Feeney","2016-05-23T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3000,2500,5500
+187,"Anthony","Cabrio","2017-02-07T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",3000,2500,5500
+190,"Timothy","Venzl","2016-07-11T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",2900,2500,5500
+195,"Vance","Jones","2017-03-17T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",2800,2500,5500
+183,"Girard","Geoni","2018-02-03T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",2800,2500,5500
+198,"Donald","OConnell","2017-06-21T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",2600,2500,5500
+199,"Douglas","Grant","2018-01-13T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",2600,2500,5500
+191,"Randall","Perkins","2017-12-19T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",2500,2500,5500
+182,"Martha","Sullivan","2017-06-21T00:00:00Z",50,"Shipping","SH_CLERK","Shipping Clerk",2500,2500,5500
+137,"Renske","Ladwig","2013-07-14T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",3600,2008,5000
+141,"Trenna","Rajs","2013-10-17T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",3500,2008,5000
+129,"Laura","Bissot","2015-08-20T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",3300,2008,5000
+133,"Jason","Mallin","2014-06-14T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",3300,2008,5000
+125,"Julia","Nayer","2015-07-16T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",3200,2008,5000
+138,"Stephen","Stiles","2015-10-26T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",3200,2008,5000
+142,"Curtis","Davies","2015-01-29T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",3100,2008,5000
+134,"Michael","Rogers","2016-08-26T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2900,2008,5000
+130,"Mozhe","Atkinson","2015-10-30T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2800,2008,5000
+126,"Irene","Mikkilineni","2016-09-28T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2700,2008,5000
+139,"John","Seo","2016-02-12T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2700,2008,5000
+143,"Randall","Matos","2016-03-15T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2600,2008,5000
+131,"James","Marlow","2015-02-16T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2500,2008,5000
+144,"Peter","Vargas","2016-07-09T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2500,2008,5000
+140,"Joshua","Patel","2016-04-06T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2500,2008,5000
+135,"Ki","Gee","2017-12-12T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2400,2008,5000
+127,"James","Landry","2017-01-14T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2400,2008,5000
+128,"Steven","Markle","2018-03-08T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2200,2008,5000
+136,"Hazel","Philtanker","2018-02-06T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2200,2008,5000
+132,"TJ","Olson","2017-04-10T00:00:00Z",50,"Shipping","ST_CLERK","Stock Clerk",2100,2008,5000
+121,"Adam","Fripp","2015-04-10T00:00:00Z",50,"Shipping","ST_MAN","Stock Manager",8200,5500,8500
+120,"Matthew","Weiss","2014-07-18T00:00:00Z",50,"Shipping","ST_MAN","Stock Manager",8000,5500,8500
+122,"Payam","Kaufling","2013-05-01T00:00:00Z",50,"Shipping","ST_MAN","Stock Manager",7900,5500,8500
+123,"Shanta","Vollman","2015-10-10T00:00:00Z",50,"Shipping","ST_MAN","Stock Manager",6500,5500,8500
+124,"Kevin","Mourgos","2017-11-16T00:00:00Z",50,"Shipping","ST_MAN","Stock Manager",5800,5500,8500
