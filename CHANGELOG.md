@@ -7,6 +7,14 @@ O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [1.2.0] — 2026-07-14
+
+### Modificado
+
+- `Projeto_Orlando_Castro.ipynb` — incluída a etapa de importação dos arquivos de dados .CSV para o notebook e realizadas análises preliminares dos dados das tabelas `salarios_por_depto_cargo.csv` e  `funcionarios_por_regiao.csv`. 
+
+---
+
 ## [1.1.0] — 2026-07-10
 
 ### Adicionado
