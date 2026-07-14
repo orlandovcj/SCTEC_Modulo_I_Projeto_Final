@@ -22,7 +22,7 @@ A partir dessas informações, são realizadas consultas SQL e uma análise expl
 - [x] Executar as queries e validar os resultados no FreeSQL.
 - [x] Exportar os resultados das queries para arquivos CSV (`salarios_por_depto_cargo.csv` e `funcionarios_por_regiao.csv`).
 - [x] Salvar os códigos SQL em `Query_1.sql` e `Query_2.sql` no repositório.
-- [ ] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
+- [X] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
 - [ ] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
 - [ ] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
 - [ ] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
