@@ -11,8 +11,6 @@ Este projeto tem como objetivo analisar dados de Recursos Humanos utilizando o b
 
 A partir dessas informações, são realizadas consultas SQL e uma análise exploratória em Python para entender a distribuição de salários por departamento e cargo, bem como a distribuição dos funcionários por região, apoiando decisões simples de gestão e visualização de dados.
 
-
-
 ### Checklist de etapas do projeto
 
 - [x] Acessar o ambiente FreeSQL e localizar o esquema **HR (Human Resources)**.
@@ -23,9 +21,12 @@ A partir dessas informações, são realizadas consultas SQL e uma análise expl
 - [x] Exportar os resultados das queries para arquivos CSV (`salarios_por_depto_cargo.csv` e `funcionarios_por_regiao.csv`).
 - [x] Salvar os códigos SQL em `Query_1.sql` e `Query_2.sql` no repositório.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - [X] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
 =======
 <<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 - [ ] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
 >>>>>>> Stashed changes
 - [ ] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
@@ -36,9 +37,17 @@ A partir dessas informações, são realizadas consultas SQL e uma análise expl
 - [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
 >>>>>>> Stashed changes
 - [ ] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
+=======
+- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
+- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
+- [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
+- [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
+- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
+- [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
+- [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
+- [x] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
+>>>>>>> Stashed changes
 - [ ] Gravar o vídeo de apresentação técnica e incluir o link conforme orientações da atividade.
-
-
 
 ### Tabelas utilizadas
 
@@ -61,8 +70,6 @@ Com isso, é possível analisar a distribuição de salários por departamento e
 
 Os dados obtidos por meio dessa consulta foram exportados para o arquivo [salarios_por_depto_cargo.csv](dados/salarios_por_depto_cargo.csv) que contém os dados de salários por departamento e cargo.
 
-
-
 **Query 2 – Funcionários por região (com localização)**
 
 A [Query_2.sql](dados/Query_2.sql) amplia a análise incluindo as tabelas `HR.LOCATIONS`, `HR.COUNTRIES` e `HR.REGIONS`, além de `HR.EMPLOYEES` e `HR.DEPARTMENTS`, também utilizando `LEFT JOIN`.
@@ -71,9 +78,98 @@ Essa consulta permite observar, para cada funcionário, o departamento, a cidade
 
 Os dados obtidos por meio dessa consulta foram exportados para o arquivo [funcionarios_por_regiao.csv](dados/funcionarios_por_regiao.csv) que contém os dados de funcionários por região, incluindo informações de localização.
 
+### Análise exploratória em Python
 
-● Explicação da análise feita em Python;
-● Principais resultados encontrados;
-● Como executar o projeto;
-● Sugestões de melhoria para futuras versões.
-● Se possível, inclua também imagens dos gráfi cos gerados para facilitar a visualização dos resultados.
+A análise exploratória em Python consistiu das seguintes etapas:
+
+1. Importação das bibliotecas necessárias (`pandas`, `numpy`, `matplotlib`, `duckdb`e `seaborn`);
+
+2. Importação dos dados das planilhas `funcionarios_por_regiao.csv` e `salarios_por_depto_cargo.csv` previamente obtidas por meio de consultas SQL feitas no banco `FreeSQL` ;
+
+3. Os dados foram importados em tabelas `duckdb` tornando possível novas consultas e filtros usando SQL;
+
+4. Foram realizadas as seguintes análises estatísticas e visualizações gráficas para os dados de **salários por cargos e departamentos**: 
+   
+   4.1. Distribuição dos salários por departamento;
+   
+   4.2. Distribuição dos salários por cargo;
+   
+   4.3. Histograma da distribuição dos salários;
+   
+   4.4. Média salarial por departamento;
+   
+   4.5. Boxblot da distribuição dos salários por departamento;
+   
+   4.6. Média salarial por cargo;
+   
+   4.7. Boxplot da distribuição dos salários por cargo;
+
+5. Foram realizadas as seguintes análises estatísticas e visualizações gráficas para os dados de **funcionários de salários por localização geográfica**:
+   
+   5.1. Distribuição de funcionários por país;
+   
+   5.2. Distribuição dos cargos por país;
+   
+   5.3. Distribuição dos salários por país;
+   
+   5.4. Salários médios por país;
+   
+   5.5. Boxplot da distribuição dos salários por país;
+
+### Principais resultados encontrados
+
+1. Disparidade salarial por setor:
+   
+   * Os dados indicam que a faixa salarial para os cargos da empresa é ampla e varia de 2.008,00 (menor valor de `MIN_SALARY`) a 40.000,00 (maior valor de `MAX_SALARY`).
+   * O setor Executive destaca-se com a maior média salarial (19.333,33), enquanto Shipping e Administration concentram as médias mais baixas (3.475,56 e 4.400,00, respectivamente).
+   
+   <div>
+   <p align="center">
+     <img src="imagens/media_salarial_depto.png" width="500">
+   </p>
+   </div>
+   
+   * O setor de Vendas (Sales) tem um alto volume de funcionários e um total de salários elevado (304.500,00), mas uma média salarial menor que a do setor de Executive, evidenciando uma pirâmide organizacional clássica. Os cargos executivos de presidente e vice presidente de administração são os mais bem remunerados na estrutura da empresa.
+   
+   <div>
+   <p align="center">
+     <img src="imagens/media_salarial_cargo.png" width="500">
+   </p>
+   </div>
+
+2. Distribuição salarial e outliers:
+   
+   * A distribuição dos salários, visualizada pelo histograma, mostra uma concentração nas faixas mais baixas, com uma cauda longa à direita.
+   
+   <div>
+   <p align="center">
+     <img src="imagens/histograma_salarios.png" width="500">
+   </p>
+   </div>
+   
+   * O boxplot revelou a presença de outliers em departamentos como Finance, IT e Shipping. Isso sugere cargos de alta especialização ou tempo de empresa que podem destoar da folha de pagamento padrão desses setores.
+   
+   <div>
+   <p align="center">
+     <img src="imagens/boxplot_depto.png" width="500">
+   </p>
+   </div>
+
+3. Concentração geográfica:
+   
+   * A vasta maioria dos funcionários está alocada nos Estados Unidos, dessa forma, o maior valor total em salários pagos pertence a esse pais.
+     
+     <div>
+     <p align="center">
+       <img src="imagens/salario_total_pais.png" width="500">
+     </p>
+     </div>
+   * A análise da média dos salários por países permite observar uma diferenciação salarial por localização. Em países como Alemanha, Canadá e Reino Unido, a empresa possui funcionários contratados em posições estratégicas nas áreas de marketing, vendas e relações públicas. Trata-se de um número reduzido de funcionários, mas que possuem salários diferenciados fazendo com que a média salárial nesses países seja maior.
+     
+     <div>
+     <p align="center">
+       <img src="imagens/salario_medio_pais.png" width="500">
+     </p>
+     </div>
+
+4. 
