@@ -6,6 +6,19 @@ O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
 
 ---
 
+## [1.5.0] — 2026-07-19
+
+### Modificado
+
+- `Projeto_Orlando_Castro.ipynb` — Concluídas as análises da seção 5 contendo as análises relacionadas à distribuição de funcionários e salários por Região (com localização).
+- `README.md` - adicionadas as seções "Análise Exploratória em Python", "Principais resultados encontrados" e "Considerações finais".
+
+### Adicionado
+
+- Pasta `imagens` contendo os gráficos a serem exibidos no `README.md`do projeto.
+
+---
+
 ## [1.4.0] — 2026-07-18
 
 ### Modificado
