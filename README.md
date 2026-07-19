@@ -5,13 +5,17 @@
 **Aluno: ORLANDO VIEIRA DE CASTRO JUNIOR
 Turma: Visualização de Dados e Business Intelligence [T2]**
 
-### Objetivo do trabalho
+
+
+## Objetivo do trabalho
 
 Este projeto tem como objetivo analisar dados de Recursos Humanos utilizando o banco de dados [FreeSQL](https://freesql.com/), no esquema **Human Resources (HR)**, explorando informações sobre funcionários, cargos, departamentos, salários e localização geográfica.
 
 A partir dessas informações, são realizadas consultas SQL e uma análise exploratória em Python para entender a distribuição de salários por departamento e cargo, bem como a distribuição dos funcionários por região, apoiando decisões simples de gestão e visualização de dados.
 
-### Checklist de etapas do projeto
+
+
+## Checklist de etapas do projeto
 
 - [x] Acessar o ambiente FreeSQL e localizar o esquema **HR (Human Resources)**.
 - [x] Selecionar as tabelas necessárias: EMPLOYEES, DEPARTMENTS, JOBS, LOCATIONS, COUNTRIES e REGIONS.
@@ -20,24 +24,14 @@ A partir dessas informações, são realizadas consultas SQL e uma análise expl
 - [x] Executar as queries e validar os resultados no FreeSQL.
 - [x] Exportar os resultados das queries para arquivos CSV (`salarios_por_depto_cargo.csv` e `funcionarios_por_regiao.csv`).
 - [x] Salvar os códigos SQL em `Query_1.sql` e `Query_2.sql` no repositório.
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-- [X] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
-- [ ] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
->>>>>>> Stashed changes
-- [ ] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
-- [ ] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
-=======
+- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
+- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
+- [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários. 
+- [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
 - [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
 - [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
 - [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
->>>>>>> Stashed changes
-- [ ] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
-=======
+- [x] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
 - [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
 - [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
 - [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
@@ -46,10 +40,11 @@ A partir dessas informações, são realizadas consultas SQL e uma análise expl
 - [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
 - [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
 - [x] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
->>>>>>> Stashed changes
-- [ ] Gravar o vídeo de apresentação técnica e incluir o link conforme orientações da atividade.
+- [x] Gravar o vídeo de apresentação técnica e incluir o link conforme orientações da atividade.
 
-### Tabelas utilizadas
+
+
+## Tabelas utilizadas
 
 Para construir as consultas e gerar os arquivos CSV utilizados na análise, foram usadas as seguintes tabelas do esquema **HR**:
 
@@ -60,7 +55,9 @@ Para construir as consultas e gerar os arquivos CSV utilizados na análise, fora
 - **HR.COUNTRIES**: lista os países, relacionando cada país a uma região através de `REGION_ID`.
 - **HR.REGIONS**: define as regiões (por exemplo, Europa, Américas, Ásia), utilizadas para agrupar países e facilitar a análise geográfica.
 
-### Resumo das consultas SQL
+
+
+## Resumo das consultas SQL
 
 **Query 1 – Salários por departamento e cargo**
 
@@ -78,11 +75,13 @@ Essa consulta permite observar, para cada funcionário, o departamento, a cidade
 
 Os dados obtidos por meio dessa consulta foram exportados para o arquivo [funcionarios_por_regiao.csv](dados/funcionarios_por_regiao.csv) que contém os dados de funcionários por região, incluindo informações de localização.
 
-### Análise exploratória em Python
+
+
+## Análise exploratória em Python
 
 A análise exploratória em Python consistiu das seguintes etapas:
 
-1. Importação das bibliotecas necessárias (`pandas`, `numpy`, `matplotlib`, `duckdb`e `seaborn`);
+1. Importação das bibliotecas necessárias (`pandas`, `numpy`, `matplotlib`, `duckdb`e `seaborn`). Caso necessário, as bibliotecas devem ser instaladas com o comando `pip install pandas numpy matplotlib duckdb seaborn`.
 
 2. Importação dos dados das planilhas `funcionarios_por_regiao.csv` e `salarios_por_depto_cargo.csv` previamente obtidas por meio de consultas SQL feitas no banco `FreeSQL` ;
 
@@ -116,7 +115,9 @@ A análise exploratória em Python consistiu das seguintes etapas:
    
    5.5. Boxplot da distribuição dos salários por país;
 
-### Principais resultados encontrados
+
+
+## Principais resultados encontrados
 
 1. Disparidade salarial por setor:
    
@@ -164,12 +165,18 @@ A análise exploratória em Python consistiu das seguintes etapas:
        <img src="imagens/salario_total_pais.png" width="500">
      </p>
      </div>
-   * A análise da média dos salários por países permite observar uma diferenciação salarial por localização. Em países como Alemanha, Canadá e Reino Unido, a empresa possui funcionários contratados em posições estratégicas nas áreas de marketing, vendas e relações públicas. Trata-se de um número reduzido de funcionários, mas que possuem salários diferenciados fazendo com que a média salárial nesses países seja maior.
-     
-     <div>
-     <p align="center">
-       <img src="imagens/salario_medio_pais.png" width="500">
-     </p>
-     </div>
+* A análise da média dos salários por países permite observar uma diferenciação salarial por localização. Em países como Alemanha, Canadá e Reino Unido, a empresa possui funcionários contratados em posições estratégicas nas áreas de marketing, vendas e relações públicas. Trata-se de um número reduzido de funcionários, mas que possuem salários diferenciados fazendo com que a média salárial nesses países seja maior.
+  
+  <div>
+  <p align="center">
+    <img src="imagens/salario_medio_pais.png" width="500">
+  </p>
+  </div>
 
-4. 
+
+
+## Considerações finais e melhorias futuras
+
+A presente análise exploratória de dados proporcionou uma visão ampla da distribuição geográfica da força de trabalho bem como dos salários por cargos, departamentos e países onde a empresa atua.
+
+Como sugestões de melhorias, poderiam ser realizadas análises comparativas relacionadas ao tempo de empresa dos funcionários e os salários, aprofundar a investigação dos outliers de modo a identificar suas causas (funcionários mais antigos? cargos mais importantes na estrutura da empresa?).
