@@ -5,15 +5,11 @@
 **Aluno: ORLANDO VIEIRA DE CASTRO JUNIOR
 Turma: Visualização de Dados e Business Intelligence [T2]**
 
-
-
 ## Objetivo do trabalho
 
 Este projeto tem como objetivo analisar dados de Recursos Humanos utilizando o banco de dados [FreeSQL](https://freesql.com/), no esquema **Human Resources (HR)**, explorando informações sobre funcionários, cargos, departamentos, salários e localização geográfica.
 
-A partir dessas informações, são realizadas consultas SQL e uma análise exploratória em Python para entender a distribuição de salários por departamento e cargo, bem como a distribuição dos funcionários por região, apoiando decisões simples de gestão e visualização de dados.
-
-
+A partir dessas informações, foram realizadas consultas SQL e uma análise exploratória em Python para entender a distribuição de salários por departamento e cargo, bem como a distribuição dos funcionários por região, apoiando decisões simples de gestão e visualização de dados.
 
 ## Checklist de etapas do projeto
 
@@ -42,8 +38,6 @@ A partir dessas informações, são realizadas consultas SQL e uma análise expl
 - [x] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
 - [x] Gravar o vídeo de apresentação técnica e incluir o link conforme orientações da atividade.
 
-
-
 ## Tabelas utilizadas
 
 Para construir as consultas e gerar os arquivos CSV utilizados na análise, foram usadas as seguintes tabelas do esquema **HR**:
@@ -54,8 +48,6 @@ Para construir as consultas e gerar os arquivos CSV utilizados na análise, fora
 - **HR.LOCATIONS**: guarda informações de localização física, como cidade (`CITY`), estado ou província (`STATE_PROVINCE`), endereço e país (`COUNTRY_ID`).
 - **HR.COUNTRIES**: lista os países, relacionando cada país a uma região através de `REGION_ID`.
 - **HR.REGIONS**: define as regiões (por exemplo, Europa, Américas, Ásia), utilizadas para agrupar países e facilitar a análise geográfica.
-
-
 
 ## Resumo das consultas SQL
 
@@ -75,7 +67,7 @@ Essa consulta permite observar, para cada funcionário, o departamento, a cidade
 
 Os dados obtidos por meio dessa consulta foram exportados para o arquivo [funcionarios_por_regiao.csv](dados/funcionarios_por_regiao.csv) que contém os dados de funcionários por região, incluindo informações de localização.
 
-
+**Tanto as consultas SQL feitas na base de dados [FreeSQL](https://freesql.com/), como os arquivos exportados para .CSV se encontram na pasta [dados](dados) deste repositório.**
 
 ## Análise exploratória em Python
 
@@ -114,8 +106,6 @@ A análise exploratória em Python consistiu das seguintes etapas:
    5.4. Salários médios por país;
    
    5.5. Boxplot da distribuição dos salários por país;
-
-
 
 ## Principais resultados encontrados
 
@@ -173,7 +163,11 @@ A análise exploratória em Python consistiu das seguintes etapas:
   </p>
   </div>
 
+## 
 
+## Apresentação em vídeo
+
+Em complemento às análises, foi criada uma apresentação técnica em vídeo que está disponível em:  https://youtu.be/G76IkJKUwlU
 
 ## Considerações finais e melhorias futuras
 
