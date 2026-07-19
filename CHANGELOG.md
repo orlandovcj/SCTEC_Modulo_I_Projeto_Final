@@ -3,7 +3,22 @@
 Registro de atualizações dos arquivos no projeto.
 
 O formato segue [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/).
+
 ---
+
+## [1.4.0] — 2026-07-18
+
+### Modificado
+
+- `Projeto_Orlando_Castro.ipynb` — adicionada a seção 5 contendo as análises relacionadas à distribuição de funcionários e salários por Região (com localização).
+
+---
+
+## [1.3.0] — 2026-07-15
+
+### Modificado
+
+- `Projeto_Orlando_Castro.ipynb` — incluída a seção 4 contendo as análises relacionadas à distribuição de salários por departamento e cargo. 
 
 ---
 
