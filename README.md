@@ -24,19 +24,10 @@ A partir dessas informações, foram realizadas consultas SQL e uma análise exp
 - [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
 - [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários. 
 - [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
-- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
-- [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
-- [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
 - [x] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
-- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
-- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
-- [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
-- [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
-- [x] Importar os arquivos CSV no Python (VS Code ou Jupyter Notebook) e realizar a EDA.
-- [x] Calcular estatísticas básicas (média, mediana, mínimo, máximo) para os salários.
-- [x] Criar pelo menos um histograma ou boxplot para visualizar a distribuição dos salários.
-- [x] Atualizar o `README.md` com objetivo, tabelas usadas, resumo das queries e principais resultados.
-- [x] Gravar o vídeo de apresentação técnica e incluir o link conforme orientações da atividade.
+- [x] - [x] Gravar o vídeo de apresentação técnica e incluir o link conforme orientações da atividade.
+
+ 
 
 ## Tabelas utilizadas
 
@@ -168,6 +159,8 @@ A análise exploratória em Python consistiu das seguintes etapas:
 ## Apresentação em vídeo
 
 Em complemento às análises, foi criada uma apresentação técnica em vídeo que está disponível em:  https://youtu.be/G76IkJKUwlU
+
+# 
 
 ## Considerações finais e melhorias futuras
 
